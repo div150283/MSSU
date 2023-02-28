@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function add()
+        {
+           sessionStorage.CartoonName="Paw patrol";
+           sessionStorage.actor="dogs";
+        }
+        function check()
+        {
+            alert(sessionStorage.length);
+        }
+        function remove()
+        {
+           //localStorage.removeItem("menu");
+          // localStorage.removeItem("item");
+              sessionStorage.clear();
+        }
+   </script>
+</head>
+<body>
+    <h3>Session Storage </h3>
+    <br>
+    <input type="button" value="Add Session Storage" onclick="add()">
+    <br><br>
+    <input type="button" value="Check Session Storage" onclick="check()">
+    <br><br>
+    <input type="button" value="Remove Session Storage" onclick="remove()">
+    <br><br>
+</body>
+</html>

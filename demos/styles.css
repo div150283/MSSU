@@ -1,0 +1,47 @@
+/* body{
+    background-color: burlywood;
+}
+
+p{
+    color:green;
+    text-align: center;
+}
+
+#para1{
+    color:blue;
+    text-align: right;
+}
+
+.mystyle{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: deeppink;
+}
+
+p.mystyle1{
+    color: white;;
+} */
+
+/* *{
+    color:black;
+    text-align: left;
+    background-color: aqua;
+} */
+
+p{
+    width:200px;
+    border:1px solid blue;
+    white-space: nowrap;
+    /* word-wrap: break-word;
+    writing-mode: horizontal-tb; */
+    overflow:hidden;
+    text-overflow: ellipsis; 
+
+    /* word-break: keep-all; */
+    /* word-break: break-all; */
+}
+
+p:hover{
+    overflow: visible;
+}
+

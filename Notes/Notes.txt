@@ -1,0 +1,129 @@
+
+
+
+Agenda :
+
+- List
+- Forms
+- Web storage (Local storage and session storage )
+- CSS (Cascading style sheet)
+- Box model
+- CSS selectors
+- Types of CSS
+- CSS Text effects 
+
+Lists :
+
+- Contains a set of information in one location
+
+Types :
+1.Ordered List (Numbered)-("1","I","i","A","a")
+2.Unordered List (Bulleted list) (circle,disc,square,none)
+3.Description / Definition List
+
+dl : description list
+dt : data term
+dd : data definition
+
+Forms : 
+
+- to collect the user input 
+- User inputs are processed at the server 
+
+Web storage : 
+
+Web applications stores the data locally on the user browser 
+
+Types :
+
+Local storage : stores data with no expiration date
+Session Storage : Stores data for one session(data is lost once browser is closed / session is expired)
+
+cookies : 4kb
+Web storage : 5 mb (10 mb storage capacity)
+
+CSS (Cascading style sheet)
+
+- Designing your page 
+
+3 types of stylesheet:
+
+1.Inline stylesheet : styles inside the html element 
+
+<body style="background-color: aqua;">
+    <h1 style="color: red;">Welcome USER</h1>
+
+
+2.Internal stylesheet : Styles defined on the <style> tag on head section of your html page
+
+  <style>
+        table{
+            border:10px solid green;
+        }
+        th
+        {
+            color:red;
+        }
+        td{
+            background-color: yellow;
+        }
+    </style>
+
+3. External Stylesheet : Seperate .css file to hold the styles of all the web pages
+
+
+CSS Selector : What basis or criteria the styles are applied to the html page
+
+1.Element Selector : Apply the styles through html element 
+
+body{
+    background-color: burlywood;
+}
+
+p{
+    color:green;
+    text-align: center;
+}
+
+ <p>This is element selector styling</p>
+
+
+2.id Selector : # symbol.Referenced through the id only #p1
+
+#para1{
+    color:blue;
+    text-align: right;
+}
+
+<p id="para1">This is an example for id selector</p>
+    <p id="para1">This is my third paragraph</p>
+
+3.class selector : represented (.) symbol 
+
+.mystyle{
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: deeppink;
+}
+
+p.mystyle1{
+    color: white;;
+}
+
+
+4.Universal selector : (*) all html elments on the page
+
+*{
+    color:black;
+    text-align: left;
+    background-color: aqua;
+}
+
+
+CSS Text effects :
+
+1.text-justify
+2.text-overflow
+3.word-break
+4.word-wrap
+5.writing-mode
